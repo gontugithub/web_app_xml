@@ -299,12 +299,12 @@
 <!--  Http string relative to server root to call for page cache removal to Cofax Servlet.  -->
 <init-param>
 <param-name>removePageCache</param-name>
-<param-value>/content/admin/remove?cache=pages&id=</param-value>
+<param-value>/content/admin/remove?cache=pagesid=</param-value>
 </init-param>
 <!--  Http string relative to server root to call for template cache removal to Cofax Servlet.  -->
 <init-param>
 <param-name>removeTemplateCache</param-name>
-<param-value>/content/admin/remove?cache=templates&id=</param-value>
+<param-value>/content/admin/remove?cache=templatesid=</param-value>
 </init-param>
 <!--  Location of folder from root of drive that will be used for ftp transfer from beta server  -->
 <!--  or user hard drive to live servers. Note that Edit Article will not function without this variable  -->
